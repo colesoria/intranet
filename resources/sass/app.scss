@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Our styles
+.image-logonavbar {
+    max-width: 200px;
+}
+.btn-primary{
+    color:#fff !important;
+}
+main{
+    min-height:calc(100% - 8rem);
+    overflow:none;
+    padding-bottom:5rem;
+}
+footer{
+    position:relative;
+    margin-top:-2rem;
+    height:5rem;
+}
+footer ul{
+    margin-top: -2.5rem;
+    transform:translateY(1.25rem);
+}
+html, body{
+    height:100%;
+}
